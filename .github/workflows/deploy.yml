@@ -70,7 +70,7 @@ jobs:
 
       - name: Log Branch and Environment
         run: |
-          echo "🚀 Deploying branch ${{ github.ref_name }} to Vapor environment: ${{ env.VAPOR_ENV }}"
+          echo "🚀 Deploying to Vapor environment: ${{ env.VAPOR_ENV }}"
           echo "🧪 Test mode: ${{ env.TEST_MODE }}"
 
       - name: Validate Deployment Configuration
